@@ -1,8 +1,34 @@
-@url = https://redesigned-space-giggle-wwqvrjqgjgrf995r.github.dev/tarefas
+@url = https://redesigned-space-giggle-wwqvrjqgjgrf995r-8080.app.github.dev/tarefas
 POST {{url}}
 Content-Type: application/json
 
 {
     "id": 1,
     "descricao": "Primeira tarefa"
+},
+{
+    "id": 2,
+    "descricao": "Segunda tarefa"
+},
+{
+    "id": 3,
+    "descricao": "Terceira tarefa"
 }
+
+###
+
+GET {{url}}
+Content-Type: application/json
+
+###
+
+PUT {{url}}/3
+Content-Type: application/json
+
+{
+    "descricao": "Terceira tarefa alterada"
+}
+
+###
+
+DELETE {{url}}/3
