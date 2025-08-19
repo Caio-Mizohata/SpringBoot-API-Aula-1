@@ -1,0 +1,8 @@
+@url = https://redesigned-space-giggle-wwqvrjqgjgrf995r.github.dev/tarefas
+POST {{url}}
+Content-Type: application/json
+
+{
+    "id": 1,
+    "descricao": "Primeira tarefa"
+}
