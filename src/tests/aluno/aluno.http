@@ -4,9 +4,8 @@ POST {{url}}
 Content-Type: application/json
 
 {
-    "id": 2,
-    "nome": "Nome2",
-    "idade": 21
+    "nome": "Nome3",
+    "idade": 234
 }
 
 ###
