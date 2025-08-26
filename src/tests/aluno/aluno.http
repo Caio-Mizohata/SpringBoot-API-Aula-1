@@ -4,8 +4,8 @@ POST {{url}}
 Content-Type: application/json
 
 {
-    "nome": "Nome3",
-    "idade": 234
+    "nome": "Nome5",
+    "idade": 17
 }
 
 ###
@@ -18,14 +18,14 @@ GET {{url}}/1
 
 ###
 
-PUT {{url}}/1
+PUT {{url}}/5
 Content-Type: application/json
 
 {
-    "nome": "Nome1",
-    "idade": 19
+    "nome": "Nome5",
+    "idade": 24
 }
 
 ###
 
-DELETE {{url}}/2
+DELETE {{url}}/5
